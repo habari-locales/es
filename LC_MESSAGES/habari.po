@@ -4,14 +4,15 @@
 # 
 # Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2008
+# Excelente <dny1020@aol.com>, 2013
 # Paco Molinero <paco@byasl.com>, 2010
 msgid ""
 msgstr ""
 "Project-Id-Version: Habari\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-19 00:00+0000\n"
-"PO-Revision-Date: 2013-05-19 08:41+0000\n"
-"Last-Translator: chrismeller <chris@doesnthaveone.com>\n"
+"POT-Creation-Date: 2013-06-30 00:00+0000\n"
+"PO-Revision-Date: 2013-08-21 03:02+0000\n"
+"Last-Translator: Excelente <dny1020@aol.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/habari/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,7 +44,7 @@ msgid_plural "Terms %1$s in the %2$s vocabulary have been renamed to %3$s."
 msgstr[0] "El término %1$s en el vocabulario %2$s  ha sido renombrado a %3$s."
 msgstr[1] "Los términos %1$s en el vocabulario %2$s  han sido renombrados a %3$s."
 
-#: classes/url.php:222
+#: classes/url.php:223
 #, php-format
 msgid ""
 "Could not find a rule matching the following names: %s. File: %s (line %s)"
@@ -224,7 +225,7 @@ msgstr "Excepción XMLRPC desconocida"
 msgid "Requested property @name does not exist."
 msgstr ""
 
-#: classes/formcontrol.php:96
+#: classes/formcontrol.php:97
 #, php-format
 msgid "The FormControl type \"%s\" is invalid."
 msgstr ""
@@ -784,12 +785,12 @@ msgstr "correo no deseado"
 
 #. @locale Displayed as an icon indicating there is help text available for a
 #. plugin.
-#: classes/pluggable.php:251 classes/plugin.php:65
+#: classes/pluggable.php:257 classes/plugin.php:65
 #: handlers/adminpluginshandler.php:61 handlers/adminpluginshandler.php:113
 msgid "?"
 msgstr "¿?"
 
-#: classes/pluggable.php:285 plugins/undelete/undelete.plugin.php:172
+#: classes/pluggable.php:291 plugins/undelete/undelete.plugin.php:172
 #: plugins/undelete/undelete.plugin.php:184
 #: plugins/flickrsilo/flickrsilo.plugin.php:862
 #: plugins/habarisilo/habarisilo.plugin.php:65 admin/block_instances.php:17
@@ -1382,7 +1383,7 @@ msgstr "Administrar comentarios en todas las entradas"
 msgid "Manage comments on one's own posts"
 msgstr "Administrar comentarios en las entradas propias"
 
-#: classes/acl.php:908 handlers/adminhandler.php:357
+#: classes/acl.php:908 handlers/adminhandler.php:363
 msgid "Manage tags"
 msgstr "Administrar etiquetas"
 
@@ -1454,7 +1455,7 @@ msgstr ""
 msgid "Administration"
 msgstr ""
 
-#: classes/acl.php:948 handlers/adminhandler.php:356
+#: classes/acl.php:948 handlers/adminhandler.php:362
 msgid "Comments"
 msgstr "Comentarios"
 
@@ -1732,7 +1733,7 @@ msgstr "Fotos"
 msgid "Videos"
 msgstr "Videos"
 
-#: plugins/flickrsilo/flickrsilo.plugin.php:669 handlers/adminhandler.php:357
+#: plugins/flickrsilo/flickrsilo.plugin.php:669 handlers/adminhandler.php:363
 msgid "Tags"
 msgstr "Etiquetas"
 
@@ -1964,7 +1965,7 @@ msgstr "Prefijo de tabla"
 msgid "Import Categories as Tags"
 msgstr "Importar categorías como etiquetas"
 
-#: plugins/wpimport/wpimport.plugin.php:295 handlers/adminhandler.php:362
+#: plugins/wpimport/wpimport.plugin.php:295 handlers/adminhandler.php:368
 #: admin/import.php:11
 msgid "Import"
 msgstr "Importar"
@@ -2276,7 +2277,7 @@ msgstr "Nombre"
 
 #: plugins/menus/menus.plugin.php:576 plugins/menus/menus.plugin.php:615
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #: plugins/menus/menus.plugin.php:598
 msgid "Apply Changes"
@@ -2321,7 +2322,7 @@ msgstr ""
 
 #: plugins/menus/menus.plugin.php:793
 msgid "Edit this"
-msgstr ""
+msgstr "Editar esto"
 
 #: plugins/menus/menus.plugin.php:794 handlers/admincommentshandler.php:440
 #: themes/charcoal/page.single.php:23 themes/charcoal/entry.single.php:41
@@ -2332,7 +2333,7 @@ msgstr "Editar"
 
 #: plugins/menus/menus.plugin.php:795
 msgid "Delete this"
-msgstr ""
+msgstr "Borrar esto"
 
 #: plugins/coreblocks/coreblocks.plugin.php:22
 msgid "Recent Comments"
@@ -2410,7 +2411,7 @@ msgstr "Lista"
 msgid "Links to show:"
 msgstr "Enlaces a mostrar:"
 
-#: plugins/coreblocks/coreblocks.plugin.php:351 handlers/adminhandler.php:367
+#: plugins/coreblocks/coreblocks.plugin.php:351 handlers/adminhandler.php:373
 msgid "Logout"
 msgstr "Cerrar sesión"
 
@@ -2531,7 +2532,7 @@ msgstr "Fichero: "
 #: plugins/habarisilo/habarisilo.plugin.php:578
 #, php-format
 msgid "File uploaded: %s"
-msgstr ""
+msgstr "Archivo subido: %s"
 
 #: plugins/habarisilo/habarisilo.plugin.php:584
 msgid ""
@@ -2664,7 +2665,7 @@ msgstr "Cambiar contraseña"
 msgid "Regional Settings"
 msgstr "Preferencias regionales"
 
-#: handlers/adminusershandler.php:80 handlers/adminhandler.php:358
+#: handlers/adminusershandler.php:80 handlers/adminhandler.php:364
 msgid "Dashboard"
 msgstr "Panel de control"
 
@@ -2717,7 +2718,7 @@ msgstr "Ocultar el número de comentarios SPAM en su panel de control."
 msgid "Hide Spam Count"
 msgstr "Ocultar contador de spam"
 
-#: handlers/adminusershandler.php:154 handlers/adminhandler.php:365
+#: handlers/adminusershandler.php:154 handlers/adminhandler.php:371
 msgid "Groups"
 msgstr "Grupos"
 
@@ -2742,7 +2743,7 @@ msgstr "¡Ese usuario no existe!"
 msgid "Access to that page has been denied by the administrator."
 msgstr "El acceso a esa página ha sido prohibido por el administrador."
 
-#: handlers/adminusershandler.php:230 handlers/adminhandler.php:364
+#: handlers/adminusershandler.php:230 handlers/adminhandler.php:370
 msgid "My Profile"
 msgstr "Mi perfil"
 
@@ -2889,155 +2890,155 @@ msgid ""
 "We saved the last form you posted. Log back in to continue its submission."
 msgstr "Guardamos el último formulario que envió. Vuelva a iniciar sesión para continuar su envío."
 
-#: handlers/adminhandler.php:157
+#: handlers/adminhandler.php:162
 #, php-format
 msgid "%1$s->%2$s() does not exist."
 msgstr "%1$s->%2$s() no existe."
 
-#: handlers/adminhandler.php:179
+#: handlers/adminhandler.php:184
 msgid "The page you were looking for was not found."
 msgstr "La página que está buscando no se ha encontrado."
 
-#: handlers/adminhandler.php:227 handlers/adminhandler.php:229
+#: handlers/adminhandler.php:233 handlers/adminhandler.php:235
 msgid "Habari Version"
 msgstr "Versión de Habari"
 
-#: handlers/adminhandler.php:232
+#: handlers/adminhandler.php:238
 msgid "Habari API Version"
 msgstr "Versión de la API de Habari"
 
-#: handlers/adminhandler.php:233
+#: handlers/adminhandler.php:239
 msgid "Habari DB Version"
 msgstr "Versión de la BD de Habari"
 
-#: handlers/adminhandler.php:234
+#: handlers/adminhandler.php:240
 msgid "Active Theme"
 msgstr "Tema activo"
 
-#: handlers/adminhandler.php:235 handlers/adminoptionshandler.php:106
+#: handlers/adminhandler.php:241 handlers/adminoptionshandler.php:106
 msgid "System Locale"
 msgstr "Sistema de localización"
 
-#: handlers/adminhandler.php:236
+#: handlers/adminhandler.php:242
 msgid "Cache Class"
 msgstr ""
 
-#: handlers/adminhandler.php:240
+#: handlers/adminhandler.php:246
 msgid "PHP Version"
 msgstr "Versión de PHP"
 
-#: handlers/adminhandler.php:241
+#: handlers/adminhandler.php:247
 msgid "Server Software"
 msgstr "Software del servidor"
 
-#: handlers/adminhandler.php:242
+#: handlers/adminhandler.php:248
 msgid "Database"
 msgstr "Base de datos"
 
-#: handlers/adminhandler.php:243
+#: handlers/adminhandler.php:249
 msgid "PHP Extensions"
 msgstr "Complementos de PHP"
 
-#: handlers/adminhandler.php:244
+#: handlers/adminhandler.php:250
 msgid "PHP Configuration Settings"
 msgstr "Configuraciòn PHP"
 
-#: handlers/adminhandler.php:245
+#: handlers/adminhandler.php:251
 msgid "Browser"
 msgstr "Navegador"
 
-#: handlers/adminhandler.php:276 admin/sysinfo.php:3 admin/sysinfo.php:8
+#: handlers/adminhandler.php:282 admin/sysinfo.php:3 admin/sysinfo.php:8
 #: admin/sysinfo.php:9 admin/footer.php:22
 msgid "System Information"
 msgstr "Información del sistema"
 
-#: handlers/adminhandler.php:331
+#: handlers/adminhandler.php:337
 #, php-format
 msgid "Create a new %s"
 msgstr "Crear un nuevo %s"
 
-#: handlers/adminhandler.php:335
+#: handlers/adminhandler.php:341
 #, php-format
 msgid "Manage %s"
 msgstr "Administrar %s"
 
-#: handlers/adminhandler.php:354
+#: handlers/adminhandler.php:360
 msgid "Create content"
 msgstr "Crear contenido"
 
-#: handlers/adminhandler.php:354
+#: handlers/adminhandler.php:360
 msgid "New"
 msgstr "Nuevo"
 
-#: handlers/adminhandler.php:355
+#: handlers/adminhandler.php:361
 msgid "Manage content"
 msgstr "Administrar contenido"
 
-#: handlers/adminhandler.php:355
+#: handlers/adminhandler.php:361
 msgid "Manage"
 msgstr "Administrar"
 
-#: handlers/adminhandler.php:356
+#: handlers/adminhandler.php:362
 msgid "Manage comments"
 msgstr "Administrar comentarios"
 
-#: handlers/adminhandler.php:358
+#: handlers/adminhandler.php:364
 msgid "View your user dashboard"
 msgstr "Ver su panel de control de usuario"
 
-#: handlers/adminhandler.php:359
+#: handlers/adminhandler.php:365
 msgid "View and configure site options"
 msgstr "Ver y configurar opciones del sitio"
 
-#: handlers/adminhandler.php:359
+#: handlers/adminhandler.php:365
 msgid "Options"
 msgstr "Opciones"
 
-#: handlers/adminhandler.php:360
+#: handlers/adminhandler.php:366
 msgid "Preview and activate themes"
 msgstr "Previsualizar y activar temas"
 
-#: handlers/adminhandler.php:360
+#: handlers/adminhandler.php:366
 msgid "Themes"
 msgstr "Temas"
 
-#: handlers/adminhandler.php:361
+#: handlers/adminhandler.php:367
 msgid "Activate, deactivate, and configure plugins"
 msgstr "Activar, desactivar, y configurar complementos"
 
-#: handlers/adminhandler.php:361
+#: handlers/adminhandler.php:367
 msgid "Plugins"
 msgstr "Complementos"
 
-#: handlers/adminhandler.php:362
+#: handlers/adminhandler.php:368
 msgid "Import content from another site"
 msgstr "Importar contenido desde otro sitio"
 
-#: handlers/adminhandler.php:363
+#: handlers/adminhandler.php:369
 msgid "View and manage users"
 msgstr "Ver y administrar usuarios"
 
-#: handlers/adminhandler.php:363
+#: handlers/adminhandler.php:369
 msgid "Users"
 msgstr "Usuarios"
 
-#: handlers/adminhandler.php:364
+#: handlers/adminhandler.php:370
 msgid "Manage your user profile"
 msgstr "Administrar tu perfil de usuario"
 
-#: handlers/adminhandler.php:365
+#: handlers/adminhandler.php:371
 msgid "View and manage groups"
 msgstr "Ver y administrar grupos"
 
-#: handlers/adminhandler.php:366
+#: handlers/adminhandler.php:372
 msgid "View system log messages"
 msgstr "Ver el registro de mensajes del sistema"
 
-#: handlers/adminhandler.php:366
+#: handlers/adminhandler.php:372
 msgid "Logs"
 msgstr "Registros"
 
-#: handlers/adminhandler.php:367
+#: handlers/adminhandler.php:373
 msgid "Log out of the administration interface"
 msgstr "Desconectar de la interfaz de administración"
 
@@ -3098,7 +3099,7 @@ msgid "Habari successfully installed."
 msgstr "Habari se instaló con éxito."
 
 #: handlers/installhandler.php:228 handlers/adminpluginshandler.php:97
-#: handlers/adminpluginshandler.php:101 admin/themes.php:130
+#: handlers/adminpluginshandler.php:101 admin/themes.php:126
 msgid "Activate"
 msgstr "Activar"
 
@@ -5071,7 +5072,7 @@ msgstr "v"
 msgid "Update Available"
 msgstr "Actualización disponible"
 
-#: admin/themes.php:52 admin/themes.php:142
+#: admin/themes.php:52 admin/themes.php:146
 #, php-format
 msgid "%1$s is licensed under the %2$s"
 msgstr "%1$s está licenciado bajo %2$s"
@@ -5097,11 +5098,11 @@ msgstr "Tema heredado"
 msgid "This theme requires the parent theme named \"%s\"."
 msgstr ""
 
-#: admin/themes.php:126
+#: admin/themes.php:128
 msgid "End Preview"
 msgstr "Finalizar previsualización"
 
-#: admin/themes.php:128
+#: admin/themes.php:131
 msgid "Preview"
 msgstr "Vista previa"
 
